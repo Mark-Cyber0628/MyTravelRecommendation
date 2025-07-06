@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-
 <html lang ="en">
     <head>
         <meta charset ="UTF-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
         <title>Travel Recommendation</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
     </head>
     <body>
         <nav>
             <!-- Logó és weboldal neve -->
              <div class="logo">
-                <img src="travel.png" alt="Travel logo" style="width =40px; height =40px"
+                <img src="travel.png" alt="Webpage logo" style="width: 40px; height: 40px;">
+                <span>Dream Travel</span>
              </div>
+             <!--Navigációs linkek-->
+             <ul class="nav-center">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#about.html">About Us</a></li>
+                <li><a href="#contact.html">Contact Us</a></li>
+            </ul>
+
+              <!--Keresőmező és gombok-->
+                <form class="search-form" onsubmit="return false;">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <button type="button" onclick="search()">Search</button>
+                    <button type="reset">Reset</button>
+                    </form>
         </nav>
     </body>
 </html>

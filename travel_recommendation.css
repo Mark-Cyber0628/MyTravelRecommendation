@@ -1,0 +1,59 @@
+/* Fő nav sáv */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: linear-gradient(to right, #08118d, #1d68f5);
+  padding: 20px; 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+/* Bal oldal: logó + név */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.site-title {
+  font-size: 1.5em;
+}
+
+/* Középső menüpontok */
+.nav-center {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-center li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-center li a:hover {
+  text-decoration: underline;
+}
+
+/* Jobb oldal: kereső */
+.nav-right {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-right input {
+  padding: 5px;
+}
+
+.nav-right button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
