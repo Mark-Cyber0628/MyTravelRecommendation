@@ -8,24 +8,25 @@
     </head>
     <body>
         <nav>
-            <!-- Logó és weboldal neve -->
-             <div class="logo">
-                <img src="travel.png" alt="Webpage logo" style="width: 40px; height: 40px;">
-                <span>Dream Travel</span>
-             </div>
-             <!--Navigációs linkek-->
-             <ul class="nav-center">
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="#about.html">About Us</a></li>
-                <li><a href="#contact.html">Contact Us</a></li>
-            </ul>
+  <!-- Bal oldal: logó és név -->
+  <div class="nav-left">
+    <img src="travel.png" alt="Logó" class="logo">
+    <span class="site-title">Dream Travel</span>
+  </div>
 
-              <!--Keresőmező és gombok-->
-                <form class="search-form" onsubmit="return false;">
-                    <input type="text" id="searchInput" placeholder="Search...">
-                    <button type="button" onclick="search()">Search</button>
-                    <button type="reset">Reset</button>
-                    </form>
-        </nav>
+  <!-- Közép: navigációs linkek -->
+  <ul class="nav-center">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#aboutus">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+
+  <!-- Jobb oldal: keresés -->
+  <form class="nav-right" onsubmit="return false;">
+    <input type="text" id="searchInput" placeholder="Keresés...">
+    <button type="button" onclick="search()">Keresés</button>
+    <button type="reset">Törlés</button>
+  </form>
+</nav>
     </body>
 </html>
