@@ -3,9 +3,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, #08118d, #1d68f5);
+  background: linear-gradient(to right, #020855, #078af5);
   padding: 20px 20px;
-    box-shadow: 0 2px 5px #0b037ad2;
+    box-shadow: 0 2px 5px #000005d2;
+    transform: perspective(1000px) rotateX(10deg);
   color: black;
 }
 
@@ -40,7 +41,7 @@ nav {
 }
 
 .nav-center li a:hover {
-  text-decoration: underline;
+  text-shadow: #070707 0px 0px 10px;
 }
 
 /* Jobb oldal: kereső */
@@ -50,10 +51,31 @@ nav {
 }
 
 .nav-right input {
-  padding: 5px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, #c7dd04, #078af5);
+  padding: 5px 10px;
+  border-radius: 50px;
+  width: fit-content;
+  transition: box-shadow 0.3s ease;
 }
 
 .nav-right button {
-  padding: 5px 10px;
+  background: transparent;
+  border: none;
   cursor: pointer;
+  color: white;
+  font-size: 1.2em;
+  padding-right: 8px;
+  transition: transform 0.2s ease;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    height:100vh;
+    background-image:url(island.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+  }
