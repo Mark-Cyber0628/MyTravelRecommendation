@@ -43,31 +43,6 @@ nav {
   text-shadow: #070707 0px 0px 10px;
 }
 
-/* Jobb oldal: kereső */
-.nav-right {
-  display: flex;
-  gap: 8px;
-}
-
-.nav-right input {
-  border: none;
-  outline: none;
-  background: linear-gradient(to right, #c7dd04, #078af5);
-  padding: 5px 10px;
-  border-radius: 50px;
-  width: fit-content;
-  transition: box-shadow 0.3s ease;
-}
-
-.nav-right button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: white;
-  font-size: 1.2em;
-  padding-right: 8px;
-  transition: transform 0.2s ease;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -106,3 +81,27 @@ body {
     .social-row a:hover {
       color: #c7dd04;
     }
+
+    .tartalom2 {
+      margin-left: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+    }
+    
+  .team-list {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 12px 24px;
+      border-radius: 12px;
+      margin: 20px auto;
+      width: fit-content;    
+  }
+  .team-list li {
+      margin: 0 10px;
+      font-size: 1.2em;
+      color: rgb(80, 0, 209);
+  }
