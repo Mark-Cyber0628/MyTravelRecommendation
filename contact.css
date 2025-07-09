@@ -81,28 +81,5 @@ body {
     .social-row a:hover {
       color: #c7dd04;
     }
-
-    .tartalom2 {
-      text-size-adjust: 150%;
-      margin-left: 50px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 20px;
-    }
     
-  .team-list {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      background-color: rgba(255, 255, 255, 0.8);
-      padding: 12px 24px;
-      border-radius: 12px;
-      margin: 20px auto;
-      width: fit-content;    
-  }
-  .team-list li {
-      margin: 0 10px;
-      font-size: 1.2em;
-      color: rgb(80, 0, 209);
-  }
+  
