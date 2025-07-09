@@ -83,7 +83,6 @@ body {
     }
 
     .tartalom2 {
-      text-size-adjust: 150%;
       margin-left: 50px;
       display: flex;
       flex-direction: column;

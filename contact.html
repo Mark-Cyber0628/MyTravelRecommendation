@@ -4,7 +4,7 @@
         <meta charset ="UTF-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
         <title>Travel Recommendation</title>
-        <link rel="stylesheet" href="about_us.css">
+        <link rel="stylesheet" href="contact.css">
     </head>
     <body>
         <nav>
@@ -13,15 +13,17 @@
     <img src="travel.png" alt="Logó" class="logo">
     <span class="site-title">Dream Travel</span>
   </div>
-
   <!-- Közép: navigációs linkek -->
-  
    <ul class="nav-center">
     <li><a href="travel_recommendation.html">Home</a></li>
     <li><a href="about_us.html">About Us</a></li>
     <li><a href="contact.html">Contact Us</a></li>
    </ul>
 </nav>
+<div class="tartalom">
+  <h1>Contact Us</h1>
+  <p>Stay in touch with us! We are here to help you with your travel plans and answer any questions you may have.</p>
+</div>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <div class="social-row">
@@ -31,5 +33,16 @@
   <a href="#"><i class="fab fa-linkedin-in"></i></a>
   <a href="#"><i class="fab fa-youtube"></i></a>
 </div>
+
+<form class="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+  <button type="submit">Send Message</button>
+  </form>
+
 </body>
 </html>

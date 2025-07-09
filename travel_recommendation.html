@@ -24,15 +24,17 @@
 
   <!-- Jobb oldal: keresés -->
   <form class="nav-right" onsubmit="return false;">
-    <input type="text" id="searchInput" placeholder="Keresés...">
-    <button type="button" onclick="search()">Search</button>
-    <button type="reset">Reset</button>
-  </form>
+  <input type="text" id="searchInput" placeholder="Keresés...">
+  <button type="button" id="searchButton">Search</button>
+  <button type="reset">Reset</button>
+</form>
 </nav>
 <div class="tartalom">
   <h1>Welcome on the way to your Dream Travel</h1>
   <p>It is time to find your next dream travel destination!</p>
 </div>
+
+<div id="results"></div>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <div class="social-row">
@@ -42,5 +44,7 @@
   <a href="#"><i class="fab fa-linkedin-in"></i></a>
   <a href="#"><i class="fab fa-youtube"></i></a>
 </div>
-    </body>
+
+  <script src="travel_recommendation.js"></script>
+</body>
 </html>
