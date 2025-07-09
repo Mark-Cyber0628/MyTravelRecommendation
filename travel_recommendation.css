@@ -108,14 +108,18 @@ body {
     }
 
     #results {
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;         /* Térköz a kártyák között */
+  justify-content: flex-start; /* vagy center, ha középre akarod */
+  margin-top: 20px;
 }
 
 .card {
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin: 15px 0;
-  padding: 15px;
-  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  width: 260px;
+  box-sizing: border-box;
 }
